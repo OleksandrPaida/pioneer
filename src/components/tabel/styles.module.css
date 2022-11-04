@@ -1,0 +1,20 @@
+.avatar{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.button{
+  width: 160px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #B6F2E1;
+  border-radius: 4px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #B6F2E1;
+
+}

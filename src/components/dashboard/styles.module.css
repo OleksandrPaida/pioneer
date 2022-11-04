@@ -1,0 +1,212 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 64px;
+  isolation: isolate;
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  left: 0px;
+  top: 60px;
+  background: #191726;
+}
+
+.title {
+  font-family: 'Residenz Grotesk', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  color: #FBFBFC;
+}
+
+.board {
+  padding: 20px;
+  gap: 10px;
+  height: 218px;
+  background: #FFFFFF;
+  border: 1px solid #E8ECF4;
+  border-radius: 12px;
+  margin-left: 70px;
+  margin-top: 53px;
+}
+
+.cardBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+}
+
+.cardTitleBox {
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #1E1F23;
+  padding-left: 20px;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 18px 64px 40px 32px;
+  gap: 10px;
+  isolation: isolate;
+
+  height: 136px;
+  background: #FFFFF3;
+  border: 1px solid #EFEFC8;
+  border-radius: 12px;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 18px 64px 40px 32px;
+  gap: 10px;
+  isolation: isolate;
+
+  height: 136px;
+  background: #E9FAF5;
+  border: 1px solid #EFEFC8;
+  border-radius: 12px;
+}
+
+.card3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 18px 64px 40px 32px;
+  gap: 10px;
+  isolation: isolate;
+  height: 136px;
+  background: #E9ECFA;
+  border: 1px solid #EFEFC8;
+  border-radius: 12px;
+}
+
+
+.cardText {
+
+  height: 40px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #C6A101;
+}
+
+.cardText2 {
+
+  height: 40px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #31685B;
+}
+
+.cardText3 {
+
+  height: 40px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #445678;
+}
+
+.iconGroup {
+  position: absolute;
+  bottom: -68px;
+  left: 480px;
+}
+
+.iconHead {
+  position: absolute;
+  bottom: -68px;
+  left: 925px;
+}
+
+.iconChart {
+  position: absolute;
+  bottom: -65px;
+  right: 116px;
+}
+
+.appointments {
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 16px;
+  width: 1326px;
+  height: 410px;
+  background: #FFFFFF;
+  border: 1px solid #E8ECF4;
+  border-radius: 12px;
+  margin-top: 16px;
+}
+
+.proTip {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 24px 0px 24px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 1285px;
+  height: 60px;
+  background: linear-gradient(90.02deg, rgba(111, 234, 204, 0.15) 0.01%, rgba(253, 255, 155, 0) 101.8%);
+  border: 0.5px solid #55B59E;
+  border-radius: 8px;
+}
+
+.proTipText {
+  display: flex;
+  align-items: center;
+}
+
+.paragraphs {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #191726;
+}
+
+.upcoming{
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #1E1F23;
+}
